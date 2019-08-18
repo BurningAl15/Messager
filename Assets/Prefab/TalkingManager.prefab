@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1107959055935856}
+  m_IsPrefabParent: 1
+--- !u!1 &1107959055935856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4508744568711114}
+  - component: {fileID: 114745891643087760}
+  m_Layer: 0
+  m_Name: TalkingManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4508744568711114
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1107959055935856}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.7, y: -2.6599998, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114745891643087760
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1107959055935856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da8f55677db39834c829a7061052fb9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  messages:
+  - Hola Betsy, probablemente no quieras responder el mensaje y tal vez no leas esto...
+  - "Pero necesitaba al menos mandarte algo por tu cumplea\xF1os y me esforze mucho
+    en hacer esto para ti."
+  - Se que la ultima vez que hablamos te deje un enorme mensaje...
+  - La verdad de todo es que me senti bastante mal en el momento que desapareciste,
+    pero eso es lo de menos
+  - Comenze una relacion en ese tiempo, y cuando vi tu solicitud yo sabia que si tu
+    necesitabas ayuda en algo yo te sobrepondria a ti sobre cualquier otra persona
+  - Enserio queria hacer las cosas bien con esa persona, pero...
+  - si soy sincero tengo una enorme debilidad por la persona que se que eres, no me
+    parecia justo el hecho de poder sobreponerte sobre la persona con quien estaba.
+  - Fui egoista, lo se, pero no queria hacer a un lado a alguien a quien estaba metiendo
+    en mi vida...
+  - Igual las cosas no resultaron tan bien como debian, mas que todo porque me concentre
+    en muchas cosas y deje de lado de a pocos a esa persona y en realidad fue mi culpa.
+  - La explicacion era lo menos que podia hacer... y pedirte disculpas, disculpame
+    por haberme alejado en ese momento.
+  - "Aun asi, feliz cumplea\xF1os Betsy, te deseo un dia increible, que cada persona
+    que te salude te ponga un poquito mas feliz,"
+  - que nada en este dia te haga sentir mal, que sigas siendo tan increible como eres,
+    o mejor aun, que te hagas incluso mas increible
+  - y que todo lo que enserio tu corazon quiera, lo logres.
+  - Por ultimo, te deseo muy buena salud, y si es posible y no muy atrevido, y si
+    lees esto claro, hablame.
+  - Psd:En el reproductor estan algunas de las canciones que recuerdo nos compartimos
+    a lo largo de lo que nos conocemos, algunas de la playlist que te hice y otras
+    de antes.
+  - 'Psd2: Aun falta terminar esto pero la estuve avanzando con el poquito tiempo
+    que tengo ultimamente, enserio espero que te guste'
+  - 'Psd3: El mensaje se va a repetir infinitas veces, si quieres cerrarlo dale click
+    o toca la X'
+  numMessages: 0
+  texto: {fileID: 0}
+  time: 2
